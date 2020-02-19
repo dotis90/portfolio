@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1f2c0df904.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css"
+        integrity="sha384-SI27wrMjH3ZZ89r4o+fGIJtnzkAnFs3E4qz9DIYioCQ5l9Rd/7UAa8DHcaL8jkWt" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico">
+    <title>Daniel Otis - Full Stack Dev</title>
+</head>
+
+<body>
+
+    <section id="title">
+
+        <div class="container-fluid">
+
+            <!-- Nav Bar -->
+
+            <nav class="navbar navbar-expand-lg navbar-dark">
+
+                <a class="navbar-brand" href="">Daniel Otis</a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+                    aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item item">
+                            <a class="nav-link" href="#skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </nav>
+
+
+            <!-- Cover Photo and Text-->
+
+            <div class="row">
+
+                <div class="col-lg-6">
+                    <h1 class="title-msg">Full-Stack Web Developer and Programmer</h1>
+                    <a href="#projects"
+                            class="btn btn-outline-light btn-lg project-button" role="button">View My Projects</a>
+                </div>
+
+                <div class="col-lg-6">
+                    <img class="title-image" src="img/title-img.png" alt="avatar-img">
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+
+
+    <section id="skills">
+        <h2>My Skills</h2>
+        <div class="row">
+
+            <div class="skill-box col-lg-4">
+                <i class="icon fas fa-desktop fa-6x"></i>
+                <h3>Front-End Development</h3>
+                <p>I specialize in using HTML5, CSS3, Bootstrap, JavaScript, jQuery, and React to create beautiful
+                    websites with responsive functionality for an amazing user experience.</p>
+            </div>
+
+            <div class="skill-box col-lg-4">
+                <i class="icon fas fa-server fa-6x"></i>
+                <h3>Back-End Development</h3>
+                <p>Using Node.js and integration with mySQL and MongoDB, I create persistent web applications with
+                    robust features and complex routing for REST APIs.</p>
+            </div>
+            <div class="skill-box col-lg-4">
+                <i class="icon fas fa-book fa-6x"></i>
+                <h3>Other Skills and Experience</h3>
+                <p>With a Bachelors of Arts in English and a professional background in teaching, I use clear, succinct
+                    communication and I quickly adapt to rapidly changing environments.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Images -->
+
+    <section id="skills-images">
+        <img class="skill-img" src="img/mongodb.jpeg" alt="skill-image">
+        <img class="skill-img" src="img/express.jpeg" alt="skill-image">
+        <img class="skill-img" src="img/react.jpeg" alt="skill-image">
+        <img class="skill-img" src="img/node.jpeg" alt="skill-image">
+    </section>
+
+    <!-- Projects Section -->
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Here are just a few of my many web applications:</p>
+        <div class="row">
+
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Youtube Clone</h3>
+                    </div>
+                    <div class="card-body">
+                        <img class="project-image" src="img/placeholder-image.png" alt="project-img">
+                        <p>My version of a youtube clone, still in progress. Made with React, Node.js, and MongoDB. Organized in MVC style with RESTful routing.</p>
+                        <a href="https://github.com/dotis90/youtube-clone" target="_blank"
+                            class="btn btn-lg btn-block btn-outline-dark" role="button">View Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-column col-lg-4 col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Weather App</h3>
+                    </div>
+                    <div class="card-body">
+                        <img class="project-image" src="img/placeholder-image.png" alt="project-img">
+                        <p>A weather app using google API for geolocation and Dark Sky API for weather data. I use both JavaScript fetch and axios to contact other API.</p>
+                        <a href="https://github.com/dotis90/weather-application" target="_blank"
+                            class="btn btn-lg btn-block btn-outline-dark" role="button">View Source Code</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pricing-column col-lg-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>To-Do List App</h3>
+                    </div>
+                    <div class="card-body">
+                        <img class="project-image" src="img/placeholder-image.png" alt="project-img">
+                        <p>A to-do list application using EJS templating to dynamically render lists and tasks, Node.js for the backend, and MongoDB for data storage. </p>
+                        <a href="https://github.com/dotis90/to-do-list-database" target="_blank"
+                            class="btn btn-lg btn-block btn-outline-dark" role="button">View Source Code</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="see-more">
+            <h2>Want to see more?</h2>
+                        
+            <a href="https://github.com/dotis90/" target="_blank"
+                            class="btn btn-dark btn-lg seemore-button" role="button"><i class="fab fa-github"></i> View my Github</a>
+
+        </div>
+    </section>
+
+    <!-- About Section -->
+
+    <section id="about">
+        <div class="about">
+            <img class="profile-img" src="img/myimage.jpg" alt="avatar-img">
+            <h2 class="about-heading">About Me</h2>
+            <p>I have been employed as an English teacher in Ulsan, South Korea for the last two and a half years. After
+                obtaining a Bachelor of Arts in English from Binghamton University in 2012, I have experienced a
+                several professions before finding my true passion: programming and software development. I have
+                been
+                using the JavaScript and C# languages to make personal projects for over two years,
+                ranging from websites to video games.</p>
+            <p>As a self-taught programmer, taking the initiative to quickly identify and solve problems while successfully 
+                adapting to new technologies is my greatest strength. I am interested in joining a team
+                that is just as enthusiatic about the future of web development and technology as I am.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Interested in Working Together?</h2>
+        <p class="contact-text">Please contact me below.</p>
+
+        <form action="https://formspree.io/mayjwqqj" method="POST" id="contact_form" class="form-container">
+     
+            <input type="text" name="name" class="name" placeholder="Name"> 
+      
+            <input type="text" name= "email"class="email" placeholder="Email"> 
+
+            <input type="text" name="subject" class="subject" placeholder="Subject"> 
+
+            <textarea class="message" name="message" placeholder=" Message"></textarea>
+            <button type="submit" class="form-button">Submit</button>
+
+        </form>
+
+        <p class="contact-email">Or email me directly at <strong>dotis90@gmail.com</strong></p>
+        
+    </section>
+
+
+    <!-- Footer -->
+
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/" target="_blank"><i class="icon-bottom fab fa-linkedin fa-4x"></i></a>
+        <a class="footer-link" href="https://github.com/dotis90" target="_blank"><i class="icon-bottom fab fa-github-square fa-4x"></i></a>
+        <p class="copyright">© 2020 Daniel Otis</p>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/js/bootstrap.min.js"
+        integrity="sha384-3qaqj0lc6sV/qpzrc1N5DC6i1VRn/HyX4qdPaiEFbn54VjQBEU341pvjz7Dv3n6P" crossorigin="anonymous">
+    </script>
+    <script src="./index.js"></script>
+</body>
+</html>

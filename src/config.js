@@ -175,6 +175,6 @@ const contact = {
   ],
 };
 
-const projectRepo = "https://github.com/dotis90/portfilio-version2";
+const projectRepo = "https://github.com/dotis90/portfolio";
 
 export { heroInfo, skills, projects, contact, projectRepo };

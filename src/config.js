@@ -117,6 +117,14 @@ const skills = [
 
 const projects = [
   {
+    title: "AI Image Generator",
+    info:
+      "Features a React front-end and a Node.js/Express back-end, and integration with Open AI and Cloudinary APIs. Create a prompt, generate an image, share it with other users, and download your favorites.",
+    url: "https://chimerical-rolypoly-3d8659.netlify.app/",
+    repo: "https://github.com/dotis90/ai-image-generator",
+    img: "ai-image-generator.png",
+  },
+  {
     title: "Pirate Panic",
     info:
       "A 2D Platformer made entirely in python. Avoid hazards, jump on enemies, collect coins, and make it through all six levels.",
